@@ -14,6 +14,7 @@ import linkden from './Image/linkden.png';
 import redLinkedIn from './Image/linkedin.png'
 import p1 from './Image/p1.png';
 import p2 from './Image/p2.png';
+import p21 from './Image/p21.png';
 import p3 from './Image/p3.png';
 import Parth from './Image/Parth.png';
 import Parth1 from './Image/Parth.png';
@@ -31,6 +32,7 @@ import { Form, Input, TextArea } from 'semantic-ui-react';
 import Swal from 'sweetalert2';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import jio from './Image/jio1.jpg'
 
 const useStyles = makeStyles({
   customTextField: {
@@ -78,26 +80,26 @@ function Master(props) {
   const handleSubmit = () => {
     //e.preventDefault();
     if (data.email && data.msg) {
-    //emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, data, PUBLIC_KEY)
-    emailjs
-      .send(SERVICE_ID, TEMPLATE_ID, {
-        to_email: data.email,
-        message: data.msg,
-      }, PUBLIC_KEY)
-      .then((result) => {
-        console.log(result.text);
-        Swal.fire({
-          icon: 'success',
-          title: 'Message Sent Successfully'
-        })
-      }, (error) => {
-        console.log(error.text);
-        Swal.fire({
-          icon: 'error',
-          title: 'Ooops, something went wrong',
-          text: error.text,
-        })
-      });
+      //emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, data, PUBLIC_KEY)
+      emailjs
+        .send(SERVICE_ID, TEMPLATE_ID, {
+          to_email: data.email,
+          message: data.msg,
+        }, PUBLIC_KEY)
+        .then((result) => {
+          console.log(result.text);
+          Swal.fire({
+            icon: 'success',
+            title: 'Message Sent Successfully'
+          })
+        }, (error) => {
+          console.log(error.text);
+          Swal.fire({
+            icon: 'error',
+            title: 'Ooops, something went wrong',
+            text: error.text,
+          })
+        });
       setData({
         email: "",
         msg: ""
@@ -109,19 +111,7 @@ function Master(props) {
       });
     }
   };
-  //--//
-  // const handleSubmit = async () => {
-  //   if (data.email && data.msg) {
-  //     let payload = {}
-  //     payload.custId = localStorage.getItem("customer_id")
-  //     payload.emailId = data.email
-  //     payload.Message = data.msg
-  //     //await props.postSubmitFeedback(payload)
-  //   }
-  //   else {
-  //     alert("All fields are mandatory")
-  //   }
-  // }
+
   return (
     <>
       {/* Header */}
@@ -142,50 +132,88 @@ function Master(props) {
             <h1 className="heading-primary">
 
               <span style={{ color: '#fff', fontWeight: '400' }}>
-                {/* Style will be inherited from the parent element */}
                 <Typewriter
                   words={['Parth Bhatt']}
                   loop={1}
                   cursor
                   cursorStyle=''
                   typeSpeed={100}
-                  //deleteSpeed={100}
                   delaySpeed={1000}
-                //onLoopDone={handleDone}
-                //onType={handleType}
                 />
               </span> <br />
             </h1>
-            <p> A &nbsp;
+            <p> Experienced &nbsp;
               <Paper
-              style={{
-                display: "inline-flex",
-                backgroundColor: "transparent",
-                color: '#bb271a',
-                fontWeight: '400',
-                width: "260px",
-                margin: "20px 0px 10px 0px"
-              }}>
-              {/* Style will be inherited from the parent element */}
-              <span>
-
-              <Typewriter
-                words={['Frontend Developer', 'Backend Developer', 'FullStack Developer', 'Software Engineer', 'Web Developer']}
-                loop={500}
-                cursor
-                cursorStyle='|'
-                typeSpeed={80}
-                deleteSpeed={50}
-                delaySpeed={1000}
-              //onLoopDone={handleDone}
-              //onType={handleType}
-              />
-              </span>
-            </Paper> based in  Galway, Ireland.</p>
+                style={{
+                  display: "inline-flex",
+                  backgroundColor: "transparent",
+                  color: '#bb271a',
+                  fontWeight: '400',
+                  width: "130px",
+                  margin: "20px 0px 10px 0px"
+                }}>
+                <span>
+                  <Typewriter
+                    words={['Frontend', 'Backend', 'FullStack', 'Software', 'Website']}
+                    loop={500}
+                    cursor
+                    cursorStyle='|'
+                    typeSpeed={80}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                  />
+                </span>
+              </Paper> developer based in  Galway, Ireland.</p>
             <a href="#Contact" className="btn">Connect with me</a>
           </div>
         </div>
       </header>
+      {/* Job Exp */}
+      {/* Feed Back */}
+
+      <section className="work" id="work">
+        <div className="row">
+          <h2>Work Experience</h2>
+          <div className="Project__boxes">
+            <div className="Project__box">
+              <div className="Project__text">
+                <h3>Reliance - Jio Platforms Limited</h3>
+
+                <ul>
+                  <li><u>Role</u> - Full Stack Developer </li>
+                  <li><u>Recognition</u> - Spotlight Award in 2022</li>
+                  <li><u>Team</u> - Manged and worked with Team of 5 members </li>
+                  <li><u>Projects</u> -
+                    <ul>
+                      <li> Jio Bharat Phone - Developed B2B website for scanning and delibery the phone for PAN India people </li>
+                      <li> MARCOM - Developed a billboard managing webiste to manage hoarding and billboard across PAN India. </li>
+                      <li> VRN - Developed a website to monitor goods delivery at different Reliance warehouse across PAN India. </li>
+                    </ul>
+                  </li>
+                </ul>
+                <div className="Project__links">
+                  <a href="https://rapidbasket.netlify.app/" target="_blank" className="link__text">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/parthbhatt268/Live-Corona-Case-Counter" target="_blank" title="View Source Code">
+                    <img src={github} className="Project__code" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div className="Project__image-box">
+                <img src={jio} className="Project__image" alt="Project 0" />
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        {/* spotlight award
+         Jio bharat application
+         VRN checklist */}
+
+      </section>
 
       {/* Projects */}
       <main role="main">
@@ -224,7 +252,7 @@ function Master(props) {
 
                     <ul className="Project__list">
                       <li>HTML</li>
-                      <li>SCSS</li>
+                      <li>CSS</li>
                       <li>JavaScript</li>
                       <li>jQuery</li>
                     </ul>
@@ -241,6 +269,32 @@ function Master(props) {
                     <img src={p1} className="Project__image" alt="Project 1" />
                   </div>
                 </div>
+                {/* Web Portfolio */}
+                <div className="Project__box">
+                  <div className="Project__text">
+                    <h3>Web Based Portfolio</h3>
+
+                    <ul className="Project__list">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>ReactJS</li>
+                      <li>EmailJS</li>
+                    </ul>
+                    <div className="Project__links">
+                      <a href="https://parthbhatt268.github.io/Live-CoronaCase-Report/" target="_blank" className="link__text">
+                        Visit Site <span>&rarr;</span>
+                      </a>
+                      <a href="https://github.com/parthbhatt268/Live-Corona-Case-Counter" target="_blank" title="View Source Code" >
+                        <img src={github} className="Project__code" alt="GitHub" />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="Project__image-box">
+                    <img src={p21} className="Project__image" alt="Project 1" />
+                  </div>
+                </div>
+                {/* --- */}
                 <div className="Project__box">
                   <div className="Project__text">
                     <h3>Fire Chat - Web chatting application</h3>
@@ -575,14 +629,14 @@ function Master(props) {
             position: 'fixed',
             bottom: '20px',
             right: '20px',
-            borderRadius:"50%",
-            height:"62px",
-            width:"42px",
+            borderRadius: "50%",
+            height: "62px",
+            width: "42px",
             zIndex: 9999,
           }}
           onClick={handleBackToTop}
         >
-          <img src={top}/>
+          <img src={top} />
         </Button>
       )}
     </>

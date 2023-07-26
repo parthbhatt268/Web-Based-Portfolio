@@ -19,6 +19,7 @@ import python from './Image/python.png'
 import react from './Image/react.png'
 import sql from './Image/sql.png'
 import typescript from './Image/typescript.png'
+import { margin } from '@mui/system';
 
 const commonStyles = {
     bgcolor: 'transparent',
@@ -28,7 +29,8 @@ const commonStyles = {
     paddingTop:"5px",
     border: 1,
     height: '5rem',
-    borderColor: 'error.main' 
+    borderColor: 'error.main' ,
+    marginBottom:"10px"
   };
 
 function Skills() {
