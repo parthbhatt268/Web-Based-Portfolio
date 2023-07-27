@@ -144,10 +144,11 @@ function Master(props) {
             </h1>
             <p> Experienced &nbsp;
               <Paper
+              elevation={0}
                 style={{
                   display: "inline-flex",
                   backgroundColor: "transparent",
-                  color: '#bb271a',
+                  color: '#fddc5c',
                   fontWeight: '400',
                   width: "130px",
                   margin: "20px 0px 10px 0px"
