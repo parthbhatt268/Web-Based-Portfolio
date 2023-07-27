@@ -150,7 +150,7 @@ function Master(props) {
                   backgroundColor: "transparent",
                   color: '#fddc5c',
                   fontWeight: '400',
-                  width: "130px",
+                  width: "100px",
                   margin: "20px 0px 10px 0px"
                 }}>
                 <span>
