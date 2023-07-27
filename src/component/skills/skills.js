@@ -54,7 +54,7 @@ function Skills() {
                             <Box 
                             sx={{ ...commonStyles }}
                             >
-                                HTML
+                                &nbsp;&nbsp;&nbsp;HTML
                             </Box>
                         </Paper>
                     </Grid>
@@ -65,7 +65,7 @@ function Skills() {
                             <img src={css} alt='html' />
                             <br />
                             <Box sx={{ ...commonStyles }}>
-                                CSS
+                            &nbsp;&nbsp;&nbsp;&nbsp;CSS
                             </Box>
                         </Paper>
                     </Grid>
@@ -109,7 +109,7 @@ function Skills() {
                             <img src={mui} alt='MUI' />
                             <br />
                             <Box sx={{ ...commonStyles }}>
-                                MUI
+                            &nbsp;&nbsp;&nbsp;&nbsp;MUI
                             </Box>
                         </Paper>
                     </Grid>
@@ -131,7 +131,7 @@ function Skills() {
                             <img src={express} alt='ExpressJS' />
                             <br />
                             <Box sx={{ ...commonStyles }}>
-                                Express
+                            &nbsp; Express
                             </Box>
                         </Paper>
                     </Grid>
@@ -142,7 +142,7 @@ function Skills() {
                             <img src={mongo} alt='Mongo' />
                             <br />
                             <Box sx={{ ...commonStyles }}>
-                                Mongo
+                            &nbsp;&nbsp;Mongo
                             </Box>
                         </Paper>
                     </Grid>
@@ -153,7 +153,7 @@ function Skills() {
                             <img src={sql} alt='SQL' />
                             <br />
                             <Box sx={{ ...commonStyles }}>
-                                SQL
+                            &nbsp;&nbsp;&nbsp;&nbsp; SQL
                             </Box>
                         </Paper>
                     </Grid>
@@ -164,7 +164,7 @@ function Skills() {
                             <img src={jest} alt='JEST' />
                             <br />
                             <Box sx={{ ...commonStyles }}>
-                                JEST
+                            &nbsp;&nbsp;&nbsp;JEST
                             </Box>
                         </Paper>
                     </Grid>
@@ -175,7 +175,7 @@ function Skills() {
                             <img src={java} alt='Java' />
                             <br />
                             <Box sx={{ ...commonStyles }}>
-                                Java
+                            &nbsp;&nbsp;&nbsp;&nbsp;Java
                             </Box>
                         </Paper>
                     </Grid>
@@ -186,7 +186,7 @@ function Skills() {
                             <img src={python} alt='Python' />
                             <br />
                             <Box sx={{ ...commonStyles }}>
-                                Python
+                            &nbsp;&nbsp; Python
                             </Box>
                         </Paper>
                     </Grid>
@@ -197,7 +197,7 @@ function Skills() {
                             <img src={c} alt='C' />
                             <br />
                             <Box sx={{ ...commonStyles }}>
-                                C&C++
+                            &nbsp; C&C++
                             </Box>
                         </Paper>
                     </Grid>
@@ -208,7 +208,7 @@ function Skills() {
                             <img src={github} alt='Github' />
                             <br />
                             <Box sx={{ ...commonStyles }}>
-                                Github
+                            &nbsp;&nbsp;Github
                             </Box>
                         </Paper>
                     </Grid>

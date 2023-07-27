@@ -177,7 +177,7 @@ function Master(props) {
           <div className="Project__boxes">
             <div className="Project__box">
               <div className="Project__text">
-                <h3>Reliance - Jio Platforms Limited</h3>
+                <h3>Reliance - Jio Platforms Limited </h3>
 
                 <ul>
                   <li><u>Role</u> - Full Stack Developer </li>
@@ -185,18 +185,15 @@ function Master(props) {
                   <li><u>Team</u> - Manged and worked with Team of 5 members </li>
                   <li><u>Projects</u> -
                     <ul>
-                      <li> Jio Bharat Phone - Developed B2B website for scanning and delibery the phone for PAN India people </li>
-                      <li> MARCOM - Developed a billboard managing webiste to manage hoarding and billboard across PAN India. </li>
-                      <li> VRN - Developed a website to monitor goods delivery at different Reliance warehouse across PAN India. </li>
+                      <li> <u>Jio Bharat Phone</u>  - Developed a B2B website for seamless scanning and delivery of phone packages across PAN India. </li> <br/>
+                      <li> <u>MARCOM</u> - Developed a comprehensive billboard management platform for nationwide Jio campaign. </li><br/>
+                      <li> <u>VRN</u> - Developed a website for monitoring goods delivery at multiple Reliance warehouses across PAN India. </li><br/>
                     </ul>
                   </li>
                 </ul>
                 <div className="Project__links">
-                  <a href="https://rapidbasket.netlify.app/" target="_blank" className="link__text">
-                    Visit Site <span>&rarr;</span>
-                  </a>
-                  <a href="https://github.com/parthbhatt268/Live-Corona-Case-Counter" target="_blank" title="View Source Code">
-                    <img src={github} className="Project__code" alt="GitHub" />
+                  <a href="https://www.jio.com/" target="_blank" className="link__text">
+                    Visit Jio Site <span>&rarr;</span>
                   </a>
                 </div>
               </div>
@@ -231,6 +228,8 @@ function Master(props) {
                     <li><u>Back-End</u> - ExpressJS and NodeJS	REST API</li>
                     <li><u>Database</u> - MongoDb</li>
                     <li><u>Payment Integration</u> - Stripe Payment (For Credit & Debit card Payment) </li>
+                    <li><u>Deployment</u> - Amazon Web Service (AWS)</li> <br/>
+
                   </ul>
                   <div className="Project__links">
                     <a href="https://rapidbasket.netlify.app/" target="_blank" className="link__text">
@@ -437,7 +436,7 @@ function Master(props) {
           <div className="about__info">
             <p>
               Hi,&#128075; my name is Parth and I am a Full stack Web Developer.
-              I have completed my Bachelor in Engineering &#x1F393; with aggregate pointer of 8.61 &#x1F396; from University of Mumbai.&#x1F3DB;
+              I have completed my Bachelor in Engineering &#x1F393; with aggregate CGPA of 8.61 &#x1F396; from University of Mumbai&#x1F3DB;.
               You can connect with me on following social media platform. Also if you have any suggestions or comments for the webpage you can connect with me on linkedin.
               <p>Thank you for visiting my Webpage.&#x1F60A;</p>
             </p>
