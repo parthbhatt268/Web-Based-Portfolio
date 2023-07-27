@@ -150,7 +150,7 @@ function Master(props) {
                   backgroundColor: "transparent",
                   color: '#fddc5c',
                   fontWeight: '400',
-                  width: "100px",
+                  width: "110px",
                   margin: "20px 0px 10px 0px"
                 }}>
                 <span>
@@ -282,10 +282,10 @@ function Master(props) {
                       <li>EmailJS</li>
                     </ul>
                     <div className="Project__links">
-                      <a href="https://parthbhatt268.github.io/Live-CoronaCase-Report/" target="_blank" className="link__text">
+                      <a href="https://parthbhatt268.netlify.app/" target="_blank" className="link__text">
                         Visit Site <span>&rarr;</span>
                       </a>
-                      <a href="https://github.com/parthbhatt268/Live-Corona-Case-Counter" target="_blank" title="View Source Code" >
+                      <a href="https://github.com/parthbhatt268/Web-Based-Portfolio" target="_blank" title="View Source Code" >
                         <img src={github} className="Project__code" alt="GitHub" />
                       </a>
                     </div>
@@ -438,8 +438,8 @@ function Master(props) {
             <p>
               Hi,&#128075; my name is Parth and I am a Full stack Web Developer.
               I have completed my Bachelor in Engineering &#x1F393; with aggregate CGPA of 8.61 &#x1F396; from University of Mumbai&#x1F3DB;.
-              You can connect with me on following social media platform. Also if you have any suggestions or comments for the webpage you can connect with me on linkedin.
-              <p>Thank you for visiting my Webpage.&#x1F60A;</p>
+              You can connect with me on following social media platform. Also if you have any suggestions or comments for the Portfolio you can connect with me on linkedin.
+              <p>Thank you for visiting my Portfolio.&#x1F60A;</p>
             </p>
           </div>
           <div className="profile">
@@ -540,7 +540,7 @@ function Master(props) {
                       fontSize: "15px"
                     }} label="Your Email ID*"
                     placeholder='Email@domain.com'
-                    variant="outlined" color="secondary" />
+                    variant="outlined" color="error" />
                   <br />
                   <br />
                   <TextField
@@ -557,7 +557,7 @@ function Master(props) {
                     }}
                     label="Message*"
                     placeholder='Please enter your valuable feedback'
-                    variant="outlined" color="secondary" />
+                    variant="outlined" color="error" />
                   <br />
                   <br />
 
@@ -606,7 +606,7 @@ function Master(props) {
               </a>
             </li>
             <li className="footer__social-link-item">
-              <a href="" title="Link to coursera">
+              <a href="https://www.coursera.org/user/44ed270aca8e5b9b23aed34522b3d0d9" title="Link to coursera">
                 <img src={Coursera} target="_blank" title="Link to coursera Profile" className="footer__social-image" alt="coursera" />
               </a>
             </li>
