@@ -183,13 +183,18 @@ function Master(props) {
                 <ul>
                   <li><u>Role</u> - Full Stack Developer </li>
                   <li><u>Recognition</u> - Spotlight Award in 2022</li>
-                  <li><u>Team</u> - Manged and worked with Team of 5 members </li>
+                  <li><u>Team</u> - Manged & worked with Team of 5 members </li>
                   <li><u>Projects</u> -
-                    <ul>
+                  <ul>
+                      <li> <u>Jio Bharat Phone</u>  -  Delivering phone packages across PAN India. </li> <br/>
+                      <li> <u>MARCOM</u> - Comprehensive billboard management platform for nationwide. </li><br/>
+                      <li> <u>VRN</u> - Monitoring goods delivery at multiple Reliance warehouses across PAN India. </li><br/>
+                  </ul>
+                    {/* <ul>
                       <li> <u>Jio Bharat Phone</u>  - Developed a B2B website for seamless scanning and delivery of phone packages across PAN India. </li> <br/>
                       <li> <u>MARCOM</u> - Developed a comprehensive billboard management platform for nationwide Jio campaign. </li><br/>
                       <li> <u>VRN</u> - Developed a website for monitoring goods delivery at multiple Reliance warehouses across PAN India. </li><br/>
-                    </ul>
+                    </ul> */}
                   </li>
                 </ul>
                 <div className="Project__links">
