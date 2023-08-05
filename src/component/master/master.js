@@ -460,7 +460,7 @@ function Master(props) {
                 <Paper style={{
                   backgroundColor: 'transparent',
                   color: "white",
-                  width: "90%",
+                  width: "100%",//"90%",,
                   display: "flex",
                   alignItems: "center",
                   fontSize: "20px",
@@ -476,7 +476,7 @@ function Master(props) {
                   style={{
                     backgroundColor: 'transparent',
                     color: "white",
-                    width: "90%",
+                    width: "100%",//"90%",,
                     padding: "20px",
                     height: "auto",
                     display: "block",
@@ -502,7 +502,7 @@ function Master(props) {
               <Grid item lg={6} xs={12}>
                 <Paper
                   style={{
-                    width: "90%",
+                    width: "100%",//"90%",,
                     padding: "5px",
                     fontSize: "20px",
                     display: "flex",
@@ -519,7 +519,7 @@ function Master(props) {
                 <Paper elevation={0} style={{
                   backgroundColor: 'transparent',
                   color: "white",
-                  width: "90%",
+                  width: "100%",//"100%",//"90%",,
                   padding: "20px",
                   height: "auto",
                   display: "block",
