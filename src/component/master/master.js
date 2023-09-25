@@ -18,6 +18,7 @@ import p21 from './Image/p21.png';
 import p3 from './Image/p3.png';
 import Parth from './Image/Parth.png';
 import Parth1 from './Image/Parth.png';
+import Parth2 from './Image/Parth.jpg';
 import projectimg2 from './Image/projectimg2.png';
 import rapidBasket from './Image/rapidBasket.png';
 import top from './Image/top.png';
@@ -448,7 +449,7 @@ function Master(props) {
             </p>
           </div>
           <div className="profile">
-            <img src={Parth} width="300" height="300" className="Project__image" alt="My Photo" />
+            <img src={Parth2} width="300" height="300" className="Project__image" alt="My Photo" />
           </div>
         </div>
       </section>
