@@ -495,9 +495,9 @@ function Master(props) {
                   <Paper style={{
                     width: "100%",
                   }} />
-                  📞 - +353 851529952 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  📞 - +353 851529952 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <br />
-                  🏠 - Galway, Ireland &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  🏠 - Galway, Ireland &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <br />
                   📧 - parthapply@gmail.com
 
