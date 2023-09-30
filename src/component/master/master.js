@@ -495,11 +495,11 @@ function Master(props) {
                   <Paper style={{
                     width: "100%",
                   }} />
-                  📞 - +91-9757023237 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  📞 - +353 851529952 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <br />
                   🏠 - Galway, Ireland &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <br />
-                  📧 - pb31286@gmail.com
+                  📧 - parthapply@gmail.com
 
                 </Paper>
 
