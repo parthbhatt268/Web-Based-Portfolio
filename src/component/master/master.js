@@ -18,7 +18,7 @@ import p21 from './Image/p21.png';
 import p3 from './Image/p3.png';
 import Parth from './Image/Parth.png';
 import Parth1 from './Image/Parth.png';
-import Parth2 from './Image/Parth.jpg';
+import Parth2 from './Image/Parth1.png';
 import projectimg2 from './Image/projectimg2.png';
 import rapidBasket from './Image/rapidBasket.png';
 import top from './Image/top.png';
