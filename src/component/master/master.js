@@ -387,11 +387,11 @@ function Master(props) {
           <div className="Project__boxes">
             <div className="Project__box">
               <div className="Project__text">
-                <h3>Masters of science</h3>
-                    <h4>Information System Management</h4>
+                <h3>Masters of science - University of Galway, Ireland</h3>
+                    <h4>Course - Information System Management</h4> <br/>
                 <ul>
                   <li><u>Duration</u> -  Sept 2023 - May 2024 </li>
-                  <li><u>Score</u> Aimed to get 1H (First Class Honours)</li>
+                  <li><u>Score</u> - Aimed to get 1H (First Class Honours)</li>
                   <li><u>Core subjects</u> -
                   <ol>
                       <li>Web Development</li> 
@@ -421,11 +421,11 @@ function Master(props) {
           <div className="Project__boxes">
             <div className="Project__box">
               <div className="Project__text">
-                <h3>Bachelor of Engineering</h3>
+                <h3>Bachelor of Engineering - Mumbai University, India</h3>
 
                 <ul>
                   <li><u>Duration</u> -  August 2016  - August 2020 </li>
-                  <li><u>Score</u> 8.61/10 (First Class Honours)</li>
+                  <li><u>Score</u> - 8.61/10 (First Class Honours)</li>
                   <li><u>Core subjects</u> -
                   <ol>
                       <li>Object Oreinted Programming</li> 
