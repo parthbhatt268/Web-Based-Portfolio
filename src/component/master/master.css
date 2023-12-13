@@ -459,6 +459,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .Project__text {
     flex: 0 0 30%;
+    margin-left: 17px;
 }
 
 .Project__list {

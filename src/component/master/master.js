@@ -34,6 +34,8 @@ import Swal from 'sweetalert2';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import jio from './Image/jio1.jpg'
+import Master_University from './Image/Master_University.jpeg'
+import Bachelor_University from './Image/Bachelor_University.jpg'
 
 const useStyles = makeStyles({
   customTextField: {
@@ -182,15 +184,16 @@ function Master(props) {
                 <h3>Reliance - Jio Platforms Limited </h3>
 
                 <ul>
+                  <li><u>Duration</u> -  Nov 2020 - July 2023 </li>
                   <li><u>Role</u> - Full Stack Developer </li>
                   <li><u>Recognition</u> - Spotlight Award in 2022</li>
                   <li><u>Team</u> - Manged & worked with Team of 5 members </li>
                   <li><u>Projects</u> -
-                  <ul>
+                  <ol>
                       <li> <u>Jio Bharat Phone</u>  -  Delivering phone packages across PAN India. </li> <br/>
                       <li> <u>MARCOM</u> - Comprehensive billboard management platform for nationwide. </li><br/>
                       <li> <u>VRN</u> - Monitoring goods delivery at multiple Reliance warehouses across PAN India. </li><br/>
-                  </ul>
+                  </ol>
                     {/* <ul>
                       <li> <u>Jio Bharat Phone</u>  - Developed a B2B website for seamless scanning and delivery of phone packages across PAN India. </li> <br/>
                       <li> <u>MARCOM</u> - Developed a comprehensive billboard management platform for nationwide Jio campaign. </li><br/>
@@ -211,11 +214,6 @@ function Master(props) {
 
           </div>
         </div>
-
-
-        {/* spotlight award
-         Jio bharat application
-         VRN checklist */}
 
       </section>
 
@@ -381,6 +379,80 @@ function Master(props) {
           </div>
         </section>
 
+ {/* Education */}
+
+ <section className="education" id="education">
+        <div className="row">
+          <h2>Education</h2>
+          <div className="Project__boxes">
+            <div className="Project__box">
+              <div className="Project__text">
+                <h3>Masters of science</h3>
+                    <h4>Information System Management</h4>
+                <ul>
+                  <li><u>Duration</u> -  Sept 2023 - May 2024 </li>
+                  <li><u>Score</u> Aimed to get 1H (First Class Honours)</li>
+                  <li><u>Core subjects</u> -
+                  <ol>
+                      <li>Web Development</li> 
+                      <li>C#(C Sharp)Programming</li>
+                      <li>Database Management</li>
+                      <li>Machine Learning and Modelling </li>
+                      <li>Cloud Computing</li>
+                  </ol>
+                  </li>
+                </ul>
+                <br/>
+                <div className="Project__links">
+                  <a href="https://www.universityofgalway.ie/" target="_blank" className="link__text">
+                    Visit University Site <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+              <div className="Project__image-box">
+                <img src={Master_University} className="Project__image" alt="University Image" />
+              </div>
+            </div>
+
+          </div>
+<br/>
+<br/>
+          {/*Bachelors*/}
+          <div className="Project__boxes">
+            <div className="Project__box">
+              <div className="Project__text">
+                <h3>Bachelor of Engineering</h3>
+
+                <ul>
+                  <li><u>Duration</u> -  August 2016  - August 2020 </li>
+                  <li><u>Score</u> 8.61/10 (First Class Honours)</li>
+                  <li><u>Core subjects</u> -
+                  <ol>
+                      <li>Object Oreinted Programming</li> 
+                      <li>Java Programming</li>
+                      <li>Database Management</li>
+                      <li>C/C++ Programming </li>
+                      <li>Network Security</li>
+                      <li>Data Encryption</li>
+                  </ol>
+                  </li>
+                </ul>
+                <br/>
+                <div className="Project__links">
+                  <a href="https://mu.ac.in/" target="_blank" className="link__text">
+                    Visit University Site <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+              <div className="Project__image-box">
+                <img src={Bachelor_University} className="Project__image" alt="Bachelor University" />
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
 
         <section className="Certificates" id="Certificates" >
           <div className="row">
@@ -435,6 +507,11 @@ function Master(props) {
           </div>
         </section>
       </main>
+
+     
+
+
+
 
       {/* About Me */}
       <section className="About" id="About">
