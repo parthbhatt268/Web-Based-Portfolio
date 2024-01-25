@@ -701,7 +701,7 @@ function Master(props) {
           </ul>
         </div>
 
-        <p>Copyright © 2023 All rights reserved</p>
+        <p>Copyright © 2024 All rights reserved</p>
         <p>Made with ❤️ in Galway, Ireland</p>
       </footer>
       {showBackToTop && (
