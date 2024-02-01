@@ -16,6 +16,7 @@ import p1 from './Image/p1.png';
 import p2 from './Image/p2.png';
 import p21 from './Image/p21.png';
 import p3 from './Image/p3.png';
+import SirenPhoto from './Image/SirenPhoto.jpg';
 import Parth from './Image/Parth.png';
 import Parth1 from './Image/Parth.png';
 import Parth2 from './Image/Parth1.png';
@@ -147,7 +148,7 @@ function Master(props) {
             </h1>
             <p> Experienced &nbsp;
               <Paper
-              elevation={0}
+                elevation={0}
                 style={{
                   display: "inline-flex",
                   backgroundColor: "transparent",
@@ -179,6 +180,45 @@ function Master(props) {
         <div className="row">
           <h2>Work Experience</h2>
           <div className="Project__boxes">
+
+            <div className="Project__box">
+              <div className="Project__text">
+                <h3>Siren - Galway, Ireland</h3>
+
+                <ul>
+                  <li><u>Duration</u> - Jan 2024 - Ongoing </li>
+                  <li><u>Role</u> - Full Stack Developer - Internship</li>
+                  <li>
+                    <u>Projects Stack used</u> -
+                    <br/>
+                    <br/>
+                    <ol>
+                      <li> <u>ELK Stack</u> - Elasticsearch, Logstash, Kibana </li>
+                      <ul>
+                        <li>Elasticsearch - Real-time search engine.</li>
+                        <li>Logstash - Server log analysis.</li>
+                        <li>Kibana - Dashboards for user engagement.</li>   
+                      </ul>
+                      <br/>
+                      <li> <u>MERN Stack</u> - MongoDB, Express.js, React, Node.js </li>
+                      <br/>
+
+                    </ol>
+                  </li>
+                </ul>
+
+
+                <div className="Project__links">
+                  <a href="https://siren.io/" target="_blank" className="link__text">
+                    Visit Siren Site <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+              <div className="Project__image-box">
+                <img src={SirenPhoto} className="Project__image" alt="Project 0" />
+              </div>
+            </div>
+
             <div className="Project__box">
               <div className="Project__text">
                 <h3>Reliance - Jio Platforms Limited </h3>
@@ -189,11 +229,11 @@ function Master(props) {
                   <li><u>Recognition</u> - Spotlight Award in 2022</li>
                   <li><u>Team</u> - Manged & worked with Team of 5 members </li>
                   <li><u>Projects</u> -
-                  <ol>
-                      <li> <u>Jio Bharat Phone</u>  -  Delivering phone packages across PAN India. </li> <br/>
-                      <li> <u>MARCOM</u> - Comprehensive billboard management platform for nationwide. </li><br/>
-                      <li> <u>VRN</u> - Monitoring goods delivery at multiple Reliance warehouses across PAN India. </li><br/>
-                  </ol>
+                    <ol>
+                      <li> <u>Jio Bharat Phone</u>  -  Delivering phone packages across PAN India. </li> <br />
+                      <li> <u>MARCOM</u> - Comprehensive billboard management platform for nationwide. </li><br />
+                      <li> <u>VRN</u> - Monitoring goods delivery at multiple Reliance warehouses across PAN India. </li><br />
+                    </ol>
                     {/* <ul>
                       <li> <u>Jio Bharat Phone</u>  - Developed a B2B website for seamless scanning and delivery of phone packages across PAN India. </li> <br/>
                       <li> <u>MARCOM</u> - Developed a comprehensive billboard management platform for nationwide Jio campaign. </li><br/>
@@ -211,6 +251,8 @@ function Master(props) {
                 <img src={jio} className="Project__image" alt="Project 0" />
               </div>
             </div>
+
+
 
           </div>
         </div>
@@ -233,7 +275,7 @@ function Master(props) {
                     <li><u>Back-End</u> - ExpressJS and NodeJS	REST API</li>
                     <li><u>Database</u> - MongoDb</li>
                     <li><u>Payment Integration</u> - Stripe Payment (For Credit & Debit card Payment) </li>
-                    <li><u>Deployment</u> - Amazon Web Service (AWS)</li> <br/>
+                    <li><u>Deployment</u> - Amazon Web Service (AWS)</li> <br />
 
                   </ul>
                   <div className="Project__links">
@@ -274,7 +316,7 @@ function Master(props) {
                   </div>
                 </div>
                 {/* Web Portfolio */}
-                <div className="Project__box">
+                {/* <div className="Project__box">
                   <div className="Project__text">
                     <h3>Web Based Portfolio</h3>
 
@@ -297,7 +339,7 @@ function Master(props) {
                   <div className="Project__image-box">
                     <img src={p21} className="Project__image" alt="Project 1" />
                   </div>
-                </div>
+                </div> */}
                 {/* --- */}
                 <div className="Project__box">
                   <div className="Project__text">
@@ -347,7 +389,7 @@ function Master(props) {
                     <img src={p2} className="work__image" alt="Project 3" />
                   </div>
                 </div>
-                <div className="Project__box">
+                {/* <div className="Project__box">
                   <div className="Project__text">
                     <h3> Desktop app to count Corona cases</h3>
                     <p>
@@ -373,86 +415,86 @@ function Master(props) {
                   <div className="Project__image-box">
                     <img src={p3} className="Project__image" alt="Project 4" />
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </section>
 
- {/* Education */}
+        {/* Education */}
 
- <section className="education" id="education">
-        <div className="row">
-          <h2>Education</h2>
-          <div className="Project__boxes">
-            <div className="Project__box">
-              <div className="Project__text">
-                <h3>Masters of science - University of Galway, Ireland</h3>
-                    <h4>Course - Information System Management</h4> <br/>
-                <ul>
-                  <li><u>Duration</u> -  Sept 2023 - May 2024 </li>
-                  <li><u>Score</u> - Aimed to get 1H (First Class Honours)</li>
-                  <li><u>Core subjects</u> -
-                  <ol>
-                      <li>Web Development</li> 
-                      <li>C#(C Sharp)Programming</li>
-                      <li>Database Management</li>
-                      <li>Machine Learning and Modelling </li>
-                      <li>Cloud Computing</li>
-                  </ol>
-                  </li>
-                </ul>
-                <br/>
-                <div className="Project__links">
-                  <a href="https://www.universityofgalway.ie/" target="_blank" className="link__text">
-                    Visit University Site <span>&rarr;</span>
-                  </a>
+        <section className="education" id="education">
+          <div className="row">
+            <h2>Education</h2>
+            <div className="Project__boxes">
+              <div className="Project__box">
+                <div className="Project__text">
+                  <h3>Masters of science - University of Galway, Ireland</h3>
+                  <h4>Course - Information System Management</h4> <br />
+                  <ul>
+                    <li><u>Duration</u> -  Sept 2023 - May 2024 </li>
+                    <li><u>Score</u> - Aimed to get 1H (First Class Honours)</li>
+                    <li><u>Core subjects</u> -
+                      <ol>
+                        <li>Web Development</li>
+                        <li>C#(C Sharp)Programming</li>
+                        <li>Database Management</li>
+                        <li>Machine Learning and Modelling </li>
+                        <li>Cloud Computing</li>
+                      </ol>
+                    </li>
+                  </ul>
+                  <br />
+                  <div className="Project__links">
+                    <a href="https://www.universityofgalway.ie/" target="_blank" className="link__text">
+                      Visit University Site <span>&rarr;</span>
+                    </a>
+                  </div>
+                </div>
+                <div className="Project__image-box">
+                  <img src={Master_University} className="Project__image" alt="University Image" />
                 </div>
               </div>
-              <div className="Project__image-box">
-                <img src={Master_University} className="Project__image" alt="University Image" />
-              </div>
+
             </div>
+            <br />
+            <br />
+            {/*Bachelors*/}
+            <div className="Project__boxes">
+              <div className="Project__box">
+                <div className="Project__text">
+                  <h3>Bachelor of Engineering - Mumbai University, India</h3>
 
-          </div>
-<br/>
-<br/>
-          {/*Bachelors*/}
-          <div className="Project__boxes">
-            <div className="Project__box">
-              <div className="Project__text">
-                <h3>Bachelor of Engineering - Mumbai University, India</h3>
-
-                <ul>
-                  <li><u>Duration</u> -  August 2016  - August 2020 </li>
-                  <li><u>Score</u> - 8.61/10 (First Class Honours)</li>
-                  <li><u>Core subjects</u> -
-                  <ol>
-                      <li>Object Oreinted Programming</li> 
-                      <li>Java Programming</li>
-                      <li>Database Management</li>
-                      <li>C/C++ Programming </li>
-                      <li>Network Security</li>
-                      <li>Data Encryption</li>
-                  </ol>
-                  </li>
-                </ul>
-                <br/>
-                <div className="Project__links">
-                  <a href="https://mu.ac.in/" target="_blank" className="link__text">
-                    Visit University Site <span>&rarr;</span>
-                  </a>
+                  <ul>
+                    <li><u>Duration</u> -  August 2016  - August 2020 </li>
+                    <li><u>Score</u> - 8.61/10 (First Class Honours)</li>
+                    <li><u>Core subjects</u> -
+                      <ol>
+                        <li>Object Oreinted Programming</li>
+                        <li>Java Programming</li>
+                        <li>Database Management</li>
+                        <li>C/C++ Programming </li>
+                        <li>Network Security</li>
+                        <li>Data Encryption</li>
+                      </ol>
+                    </li>
+                  </ul>
+                  <br />
+                  <div className="Project__links">
+                    <a href="https://mu.ac.in/" target="_blank" className="link__text">
+                      Visit University Site <span>&rarr;</span>
+                    </a>
+                  </div>
+                </div>
+                <div className="Project__image-box">
+                  <img src={Bachelor_University} className="Project__image" alt="Bachelor University" />
                 </div>
               </div>
-              <div className="Project__image-box">
-                <img src={Bachelor_University} className="Project__image" alt="Bachelor University" />
-              </div>
+
             </div>
-
           </div>
-        </div>
 
-      </section>
+        </section>
 
         <section className="Certificates" id="Certificates" >
           <div className="row">
@@ -508,7 +550,7 @@ function Master(props) {
         </section>
       </main>
 
-     
+
 
 
 
@@ -520,7 +562,7 @@ function Master(props) {
           <div className="about__info">
             <p>
               Hi,&#128075; my name is Parth and I am a Full stack Web Developer.
-              I have completed my Bachelor in Engineering &#x1F393; with aggregate CGPA of 8.61 &#x1F396; from University of Mumbai&#x1F3DB;.
+              I currently pursing my Master's Degree &#x1F393; in Information System Management (ISM) with aim of achieving 1:1 &#x1F396; from University of Galway&#x1F3DB;.
               You can connect with me on following social media platform. Also if you have any suggestions or comments for the Portfolio you can connect with me on linkedin.
               <p>Thank you for visiting my Portfolio.&#x1F60A;</p>
             </p>
