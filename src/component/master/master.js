@@ -16,7 +16,7 @@ import p1 from './Image/p1.png';
 import p2 from './Image/p2.png';
 import p21 from './Image/p21.png';
 import p3 from './Image/p3.png';
-import SirenPhoto from './Image/SirenPhoto.jpg';
+import SirenPhoto from './Image/SirenPhoto.jpeg';
 import Parth from './Image/Parth.png';
 import Parth1 from './Image/Parth.png';
 import Parth2 from './Image/Parth1.png';
@@ -83,11 +83,11 @@ function Master(props) {
   //--//
   const handleSubmit = () => {
     //e.preventDefault();
-    if (data.email && data.msg) {
+    if (data.msg) {
       //emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, data, PUBLIC_KEY)
       emailjs
         .send(SERVICE_ID, TEMPLATE_ID, {
-          to_email: data.email,
+          to_email: data.email || "Empty@gmail.com",
           message: data.msg,
         }, PUBLIC_KEY)
         .then((result) => {
@@ -663,7 +663,7 @@ function Master(props) {
                       width: "100%",
                       backgroundColor: "white",
                       fontSize: "15px"
-                    }} label="Your Email ID*"
+                    }} label="Your Email ID (Not Mandatory)"
                     placeholder='Email@domain.com'
                     variant="outlined" color="error" />
                   <br />

@@ -18,8 +18,14 @@ import npm from './Image/npm.png'
 import python from './Image/python.png'
 import react from './Image/react.png'
 import sql from './Image/sql.png'
+import cSharp from './Image/cSharp.png'
+import Angular from './Image/Angular.png'
+import Elastic from './Image/Elastic.png'
+import Logstash from './Image/Logstash.png'
+import Kibana from './Image/Kibana.png'
 import typescript from './Image/typescript.png'
 import { margin } from '@mui/system';
+
 
 const commonStyles = {
     bgcolor: 'transparent',
@@ -106,10 +112,10 @@ function Skills() {
                         <Paper style={{
                             backgroundColor: "transparent"
                         }}>
-                            <img src={mui} alt='MUI' />
+                            <img src={Angular} alt='Angular' />
                             <br />
                             <Box sx={{ ...commonStyles }}>
-                            &nbsp;&nbsp;&nbsp;&nbsp;MUI
+                            &nbsp;&nbsp;&nbsp;&nbsp;Angular
                             </Box>
                         </Paper>
                     </Grid>
@@ -137,6 +143,50 @@ function Skills() {
                     </Grid>
                     <Grid item xl={3} lg={3} md={3} sm={6} xs={6}>
                         <Paper style={{
+                            backgroundColor: "transparent",
+                        }}>
+                            <img src={Elastic} alt='Elastic Search' />
+                            <br />
+                            <Box sx={{ ...commonStyles }}>
+                            &nbsp; Elastic Search
+                            </Box>
+                        </Paper>
+                    </Grid>
+                    <Grid item xl={3} lg={3} md={3} sm={6} xs={6}>
+                        <Paper style={{
+                            backgroundColor: "transparent",
+                        }}>
+                            <img src={Logstash} alt='Logstash' />
+                            <br />
+                            <Box sx={{ ...commonStyles }}>
+                            &nbsp; Logstash
+                            </Box>
+                        </Paper>
+                    </Grid>
+                    <Grid item xl={3} lg={3} md={3} sm={6} xs={6}>
+                        <Paper style={{
+                            backgroundColor: "transparent",
+                        }}>
+                            <img src={Kibana} alt='Kibana' />
+                            <br />
+                            <Box sx={{ ...commonStyles }}>
+                            &nbsp; Kibana
+                            </Box>
+                        </Paper>
+                    </Grid>
+                    <Grid item xl={3} lg={3} md={3} sm={6} xs={6}>
+                        <Paper style={{
+                            backgroundColor: "transparent"
+                        }}>
+                            <img src={jest} alt='JEST' />
+                            <br />
+                            <Box sx={{ ...commonStyles }}>
+                            &nbsp;&nbsp;&nbsp;JEST
+                            </Box>
+                        </Paper>
+                    </Grid>
+                    <Grid item xl={3} lg={3} md={3} sm={6} xs={6}>
+                        <Paper style={{
                             backgroundColor: "transparent"
                         }}>
                             <img src={mongo} alt='Mongo' />
@@ -154,17 +204,6 @@ function Skills() {
                             <br />
                             <Box sx={{ ...commonStyles }}>
                             &nbsp;&nbsp;&nbsp;&nbsp; SQL
-                            </Box>
-                        </Paper>
-                    </Grid>
-                    <Grid item xl={3} lg={3} md={3} sm={6} xs={6}>
-                        <Paper style={{
-                            backgroundColor: "transparent"
-                        }}>
-                            <img src={jest} alt='JEST' />
-                            <br />
-                            <Box sx={{ ...commonStyles }}>
-                            &nbsp;&nbsp;&nbsp;JEST
                             </Box>
                         </Paper>
                     </Grid>
@@ -198,6 +237,17 @@ function Skills() {
                             <br />
                             <Box sx={{ ...commonStyles }}>
                             &nbsp; C&C++
+                            </Box>
+                        </Paper>
+                    </Grid>
+                    <Grid item xl={3} lg={3} md={3} sm={6} xs={6}>
+                        <Paper style={{
+                            backgroundColor: "transparent"
+                        }}>
+                            <img src={cSharp} alt='CSharp' />
+                            <br />
+                            <Box sx={{ ...commonStyles }}>
+                            &nbsp; C#
                             </Box>
                         </Paper>
                     </Grid>
