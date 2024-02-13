@@ -39,6 +39,18 @@ const commonStyles = {
     marginBottom:"10px"
   };
 
+  const commonStyles1 = {
+    bgcolor: 'transparent',
+    color: 'white',
+    width: "140px",
+    paddingLeft: "5px",
+    paddingTop:"5px",
+    border: 1,
+    height: '5rem',
+    borderColor: 'error.main' ,
+    marginBottom:"10px"
+  };
+
 function Skills() {
     return (
         <>
@@ -107,6 +119,7 @@ function Skills() {
                                 TypeScript
                             </Box>
                         </Paper>
+                        cv update and print for job fair
                     </Grid>
                     <Grid item xl={3} lg={3} md={3} sm={6} xs={6}>
                         <Paper style={{
@@ -147,7 +160,7 @@ function Skills() {
                         }}>
                             <img src={Elastic} alt='Elastic Search' />
                             <br />
-                            <Box sx={{ ...commonStyles }}>
+                            <Box sx={{ ...commonStyles1 }}>
                             &nbsp; Elastic Search
                             </Box>
                         </Paper>
