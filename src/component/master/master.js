@@ -279,7 +279,7 @@ function Master(props) {
 
                   </ul>
                   <div className="Project__links">
-                    <a href="https://rapidbasket.netlify.app/" target="_blank" className="link__text">
+                    <a href="https://rapid-basket.netlify.app/" target="_blank" className="link__text">
                       Visit Site <span>&rarr;</span>
                     </a>
                     <a href="https://github.com/parthbhatt268/Live-Corona-Case-Counter" target="_blank" title="View Source Code">
