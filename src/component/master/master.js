@@ -190,18 +190,18 @@ function Master(props) {
                   <li><u>Role</u> - Full Stack Developer - Internship</li>
                   <li>
                     <u>Projects Stack used</u> -
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     <ol>
                       <li> <u>ELK Stack</u> - Elasticsearch, Logstash, Kibana </li>
                       <ul>
                         <li>Elasticsearch - Real-time search engine.</li>
                         <li>Logstash - Server log analysis.</li>
-                        <li>Kibana - Dashboards for user engagement.</li>   
+                        <li>Kibana - Dashboards for user engagement.</li>
                       </ul>
-                      <br/>
+                      <br />
                       <li> <u>MERN Stack</u> - MongoDB, Express.js, React, Node.js </li>
-                      <br/>
+                      <br />
 
                     </ol>
                   </li>
@@ -282,7 +282,7 @@ function Master(props) {
                     <a href="https://rapid-basket.netlify.app/" target="_blank" className="link__text">
                       Visit Site <span>&rarr;</span>
                     </a>
-                    <a href="https://github.com/parthbhatt268/Live-Corona-Case-Counter" target="_blank" title="View Source Code">
+                    <a href="https://github.com/parthbhatt268/ui-rapidBasket" target="_blank" title="View Source Code">
                       <img src={github} className="Project__code" alt="GitHub" />
                     </a>
                   </div>
